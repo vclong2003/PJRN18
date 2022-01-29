@@ -1,4 +1,5 @@
 package com.pjrn18;
+import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
 
@@ -12,4 +13,8 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "PJRN18";
   }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
+}
 }
