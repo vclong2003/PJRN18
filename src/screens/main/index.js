@@ -106,7 +106,9 @@ const MainScreen = () => {
             backgroundColor: 'white',
             borderTopLeftRadius: 50,
             borderTopRightRadius: 50,
-          }}></View>
+          }}>
+            
+          </View>
       </View>
     </LinearGradient>
   );
